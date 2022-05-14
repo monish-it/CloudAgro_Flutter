@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:splashscreen/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CupertinoApp(
       debugShowCheckedModeBanner: false,
-      title: "navbar",
+      // onGenerateTitle: null,
       home: HomePage(),
     );
   }
@@ -122,7 +121,7 @@ class Page1 extends StatelessWidget {
       child: Center(
         child: Text(
           "Grid",
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Colors.black),
           textAlign: TextAlign.center,
         ),
       ),
@@ -139,7 +138,7 @@ class Page2 extends StatelessWidget {
         child: Center(
       child: Text(
         "Market",
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.black),
       ),
     ));
   }
@@ -154,7 +153,7 @@ class Page3 extends StatelessWidget {
         child: Center(
       child: Text(
         "Home",
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.black),
       ),
     ));
   }
@@ -169,7 +168,7 @@ class Page4 extends StatelessWidget {
         child: Center(
       child: Text(
         "Notification",
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.black),
       ),
     ));
   }
@@ -184,7 +183,7 @@ class Page5 extends StatelessWidget {
         child: Center(
       child: Text(
         "Map",
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.black),
       ),
     ));
   }
