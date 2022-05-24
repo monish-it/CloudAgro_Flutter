@@ -1,7 +1,7 @@
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:agro/main.dart';
+// import 'package:flutter/cupertino.dart';
+// import 'package:agro/main.dart';
 
 class Signin extends StatefulWidget {
   const Signin({Key? key}) : super(key: key);
@@ -64,7 +64,7 @@ class _SigninState extends State<Signin> {
                               const Rect.fromLTRB(100, 0, 300, 0),
                             ),
                         ),
-                      )
+                      ),
                     ],
                   ),
                 ),
